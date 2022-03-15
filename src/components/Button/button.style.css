@@ -1,0 +1,24 @@
+button {
+    border: none;
+    border-radius: 8.5px;
+    color: #0f282c;
+    background-color: #FFF;
+    padding: 14px 0px;
+    margin: 10px 40px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+button:active {
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 4px rgb(0, 0, 0, 0.1);
+    transform: translateY(1px);
+}
+
+a {
+    text-decoration: none;
+    color: #0f282c;
+}

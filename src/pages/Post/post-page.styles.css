@@ -1,0 +1,21 @@
+.post-container {
+    margin: 40px 15em;
+}
+
+.comments-container {
+    display: flex;
+    gap: 15px;
+    justify-content: centers;
+    flex-direction: column;
+}
+
+.comments-container>h2 {
+    text-align: center;
+    color: rgb(252, 88, 88);
+}
+
+@media screen and (max-device-width: 650px) {
+    .post-container {
+        margin: 40px 2em;
+    }
+}

@@ -1,0 +1,17 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    color: rgb(32, 32, 32);
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.comment>h3 {
+    color: rgb(102, 181, 255);
+}
+
+.comment>p {
+    color: rgb(39, 72, 117);
+}

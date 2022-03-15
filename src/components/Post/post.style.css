@@ -1,0 +1,13 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    color: rgb(32, 32, 32);
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.post>h2 {
+    color: rgb(255, 71, 71);
+}
