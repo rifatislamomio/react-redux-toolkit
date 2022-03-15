@@ -5,23 +5,10 @@ import './post-page.styles.css'
 import Comment from "../../components/Comment/comment.component";
 
 function PostPage() {
-    const [comments, setComments] = useState([]);
-    const [isLoaded, setIsLoaded] = useState(false);
-
     const { state } = useLocation();
     const { post } = state;
 
-    useEffect(() => {
-        fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
-            .then(res => res.json())
-            .then(comnts => {
-                setComments(comnts)
-                setIsLoaded(true)
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
-    }, [post.id])
+    
     return (
         <div className="post-container">
             <Post post={post} />
