@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Placeholder Posts</h1>
+      <h1>Placeholder Posts (with Redux)</h1>
       {isSuccess &&
         <CardList posts={data} />
       }
